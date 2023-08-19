@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+body{
+    background-color: rgb(11, 12, 26);
+}
+
+.card{
+    background-color: azure;
+    width: 200px;
+    
+    margin: 10px;
+    border-radius: 15px;
+   
+    
+    
+}
+
+.card-image{
+    background-color: aqua;
+    height: 155px;
+    margin-bottom: 15px;
+    background-size:cover;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.car-1{
+    background-image: url('https://images.unsplash.com/photo-1549207107-2704df6b92ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80');
+
+}
+
+.car-2{
+    background-image: url('https://images.unsplash.com/photo-1541443131876-44b03de101c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+
+}
+
+.car-3{
+    background-image: url('https://plus.unsplash.com/premium_photo-1664303847960-586318f59035?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80');
+
+}
+
+.card h2, p{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.card a{
+    padding:10px;
+    background-color: black;
+    color: antiquewhite;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition:all 1s ease ;
+    background-color: rgb(83, 81, 81);
+    color: rgb(255, 255, 255);
+}
